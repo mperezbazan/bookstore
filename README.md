@@ -1,27 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
@@ -36,7 +14,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Math Magicians\] ](#-math-magicians-)
+- [📖 \[BookStore\] ](#-bookstore-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -56,12 +34,14 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math Magicians] <a name="about-project"></a>
+# 📖 [BookStore] <a name="about-project"></a>
 
 
-**[Math Magicians]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-- Make simple calculations.
-- Read a random math-related quote.
+**[BookStore]** is a website that allows you to:
+
+- Display a list of books.
+- Add a book.
+- Remove a selected book.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -101,7 +81,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:mperezbazan/math-magicians.git
+  git clone git@github.com:mperezbazan/bookstore.git
 ```
 
 
@@ -109,7 +89,7 @@ Clone this repository to your desired folder:
 
 Install this project with:
 ```sh
-  cd math-magicians
+  cd bookstore
   npm install
 ```
 
@@ -153,8 +133,8 @@ To run tests, run the following command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Calculator]**
-- [ ] **[Rnadom_quote]**
+- [ ] **[Add_Books]**
+- [ ] **[Remove_books]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
