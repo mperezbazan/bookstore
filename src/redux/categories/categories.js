@@ -1,17 +1,17 @@
 const CHECK_STATUS = 'bookstore/categories/CHECK_STATUS';
 
-export default function reducer(state = [], action) {
+export default function reducer(state = { categories: [], text: '' }, action) {
   switch (action.type) {
     case CHECK_STATUS:
-      return [
+      return {
         ...state,
-        'Under Construction',
-      ];
+        text: action.text,
+      };
     default: return state;
   }
 }
 
-export const checkStatus = (book) => ({
+export const checkStatus = () => ({
   type: CHECK_STATUS,
-  book,
+  text: 'Under Construction',
 });
