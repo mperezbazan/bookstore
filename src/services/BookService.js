@@ -8,10 +8,10 @@ const create = (data) => http.post(`/apps/${appId}/books`, data);
 
 const remove = (id) => http.delete(`/apps/${appId}/books/${id}`);
 
-const BookService = {
+const bookService = {
   getAll,
   create,
   remove,
 };
 
-export default BookService;
+export default bookService;

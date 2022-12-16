@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { addBook } from '../redux/books/books';
+import { addBookAPI } from '../redux/books/books';
 
 const BookForm = () => {
   const [formData, setFormData] = useState({});
@@ -20,7 +20,7 @@ const BookForm = () => {
     if (title.value === '' || author.value === '') {
       message.textContent = 'Please, complete Title and Author to add the book';
     } else {
-      dispatch(addBook({ id: uuidv4(), ...formData }));
+      dispatch(addBookAPI({ item_id: uuidv4(), ...formData, category: 'Unknown' }));
       setFormData({});
       title.value = '';
       author.value = '';
