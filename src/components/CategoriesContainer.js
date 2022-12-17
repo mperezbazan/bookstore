@@ -11,8 +11,8 @@ const CategoriesContainer = () => {
   return (
     <>
       <div className="container">
-        <button type="button" onClick={handleClick}>Check Status</button>
-        <p className="status-message">{`Status: ${status}`}</p>
+        <button type="button" onClick={handleClick} className="form-input-button">Check Status</button>
+        <p className="form-title">{`Status: ${status}`}</p>
       </div>
     </>
   );

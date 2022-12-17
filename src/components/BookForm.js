@@ -30,10 +30,11 @@ const BookForm = () => {
 
   return (
     <>
+      <h2 className="form-title">ADD NEW BOOK</h2>
       <form className="form-container" onSubmit={handleSubmit}>
-        <input type="text" placeholder="Title" id="title" name="title" className="form-input" onChange={handleChange} />
-        <input type="text" placeholder="Author" id="author" name="author" className="form-input" onChange={handleChange} />
-        <input type="submit" value="Add book" className="form-input" />
+        <input type="text" placeholder="Book Title" id="title" name="title" className="form-input" onChange={handleChange} />
+        <input type="text" placeholder="Book Author" id="author" name="author" className="form-input" onChange={handleChange} />
+        <input type="submit" value="ADD BOOK" className="form-input-button" />
       </form>
       <small id="message" />
     </>

@@ -13,6 +13,7 @@ const BooksList = () => {
   return (
     <div className="container">
       {books.map((book) => <Book book={book} key={book.item_id} />)}
+      <div className="horizontal-divider" />
       <BookForm />
     </div>
   );
